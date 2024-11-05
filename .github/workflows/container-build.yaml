@@ -1,4 +1,4 @@
-name: Rebuild container
+name: Build container
 on:
   schedule:
     - cron: "0 1 */7 * *"
