@@ -30,4 +30,4 @@ jobs:
         with:
           file: Dockerfile
           push: true
-          tags: ${{ env.REGISTRY }}/nackpack/${{ env.IMAGE_NAME }}:latest
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
